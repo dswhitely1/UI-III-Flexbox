@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -91,6 +91,7 @@ video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -105,17 +106,21 @@ nav,
 section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
+
 ol,
 ul {
 	list-style: none;
 }
+
 blockquote,
 q {
 	quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -123,6 +128,7 @@ q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -154,6 +160,24 @@ h5 {
 	margin: 0 auto;
 }
 
+header {
+	display: flex;
+	width: 900px;
+	justify-content: space-between;
+	align-items: center;
+	background-color: steelblue;
+}
+
+header nav a {
+	margin: 0 30px;
+	text-decoration: none;
+	color: lightgray;
+}
+
+header nav a.firstNav {
+	margin-left: 0;
+}
+
 .fixedNavBar {
 	position: fixed;
 	top: 0;
@@ -161,28 +185,7 @@ h5 {
 }
 
 .mainScrollArea {
-	margin-top: 30px;
-}
-
-header nav a.firstNav {
-	margin-left: 0;
-}
-
-header {
-	margin: 0 20px 14px 0;
-	background-color: steelblue;
-}
-
-header nav {
-	display: inline-block;
-	width: 650px;
-}
-
-header nav a {
-	margin: 0 30px 10px;
-	display: inline-block;
-	text-decoration: none;
-	color: lightgray;
+	margin-top: 40px;
 }
 
 header nav a:hover {
@@ -190,72 +193,51 @@ header nav a:hover {
 	color: steelblue;
 }
 
-#logo-image {
-	display: inline-block;
-	margin: 0 0 -10px 60px;
-	background-image: url("/great-idea/img/logo.png");
-	width: 183px;
-	height: 36px;
+main {
+	display: flex;
+	margin: 70px 0;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
 }
 
-main {
-	margin: 50px 0 70px 0;
-	display: inline-block;
-}
 
 .Company {
-	width: 515px;
-	display: inline-block;
 	font-size: 80px;
 	text-align: center;
 	line-height: 60px;
-	vertical-align: auto;
+	margin-left: 83px;
+	padding-right: 113px;
 }
 
-#header-image {
-	display: inline-block;
-	margin-bottom: -60px;
-	background-image: url("/great-idea/img/header-img.png");
-	width: 379px;
-	height: 379px;
+
+.lasth1 {
+	margin-bottom: -11px;
 }
 
-button {
-	margin-bottom: 20px;
+main button {
 	padding: 5px 50px;
-	background-color: white;
 	border: 1px solid black;
+	background-color: white;
 }
 
 button:hover {
 	color: white;
 	background-color: black;
 }
-.lasth1 {
-	margin-bottom: -11px;
-}
 
 .TopRow {
-	display: block;
-	margin: 50px 0;
+	display: flex;
+	margin: 30px 0;
 }
 
-.Features {
-	display: inline-block;
-	width: 445px;
-}
-#middle-image {
-	background-image: url("/great-idea/img/mid-page-accent.jpg");
-	width: 876px;
-	height: 182px;
-}
 .BottomRow {
-	margin: 50px 0;
+	display: flex;
+	margin: 30px 0 50px 0;
 }
 
 .Services {
-	display: inline-block;
-	width: 290px;
+	padding: 0 10px 0 0;
 }
 
 footer {
@@ -265,11 +247,13 @@ footer {
 .Contact {
 	margin-top: 30px;
 }
+
 section h2 {
 	margin-top: 30px;
 	text-align: center;
 	font-size: 60px;
 }
+
 form {
 	width: 450px;
 	margin: 0 auto 30px;
@@ -278,7 +262,7 @@ form {
 	padding: 16px;
 }
 
-form div + div {
+form div+div {
 	margin-top: 16px;
 }
 
