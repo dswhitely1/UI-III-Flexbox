@@ -1,0 +1,78 @@
+@import "reset.css";
+@import "mainStyle.css";
+
+#services-info {
+	width: 420px;
+	height: 300px;
+	background-image: url("/great-idea/img/services-info.png");
+}
+.servicesMain {
+	display: flex;
+	flex-direction: column;
+	padding-top: 20px;
+}
+.servicesMain h2 {
+	font-size: 30px;
+	padding-top: 30px;
+}
+
+.servicesMain p {
+	letter-spacing: 0.2px;
+	padding-bottom: 30px;
+	line-height: 20px;
+}
+
+.Cards {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.Cards div {
+	border: 1px solid black;
+	background-color: #f5f5f5;
+	width: 380px;
+	height: 250px;
+	padding: 20px;
+	margin: 20px 0;
+}
+
+.Cards div p {
+	line-height: 20px;
+	letter-spacing: 0.2px;
+}
+
+.Cards div h3 {
+	font-size: 18px;
+}
+
+.Cards div button {
+	margin-top: 20px;
+	padding: 10px 37px;
+	border-radius: 5px;
+}
+
+.funfacts {
+	display: flex;
+	justify-content: space-between;
+	margin: 40px 0;
+}
+#fun-facts {
+	width: 420px;
+}
+.funfacts h3 {
+	font-size: 18px;
+}
+
+.funfacts p {
+	line-height: 20px;
+	letter-spacing: 0.2px;
+}
+
+.whatwedo {
+	margin: 20px 0;
+}
+
+.funfacts ul {
+	list-style: square inside;
+}

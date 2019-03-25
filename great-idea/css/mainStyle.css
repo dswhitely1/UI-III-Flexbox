@@ -1,0 +1,79 @@
+html,
+body {
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+}
+
+.container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+header {
+	display: flex;
+	width: 900px;
+	justify-content: space-between;
+	align-items: center;
+	background-color: steelblue;
+}
+
+header nav a {
+	margin: 0 30px;
+	text-decoration: none;
+	color: lightgray;
+}
+
+header nav a:hover {
+	background-color: lightgray;
+	color: steelblue;
+}
+
+header nav a.firstNav {
+	margin-left: 0;
+}
+
+#logo-header-nav {
+	width: 183px;
+	height: 36px;
+	background-image: url("/great-idea/img/logo.png");
+}
+.fixedNavBar {
+	position: fixed;
+	top: 0;
+	z-index: 999;
+}
+.mainScrollArea {
+	margin-top: 40px;
+}
+hr {
+	border: 1px solid black;
+}
+footer {
+	text-align: center;
+}
+
+button {
+	background-color: white;
+	border: 1px solid black;
+}
+
+button:hover {
+	background-color: steelblue;
+	color: lightgray;
+}
+.Contact {
+	margin-top: 30px;
+}
+hr {
+	border: 1px solid black;
+}

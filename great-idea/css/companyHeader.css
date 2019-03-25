@@ -1,0 +1,25 @@
+.companyMain {
+	display: flex;
+	margin: 70px 0;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+
+.Company {
+	font-size: 80px;
+	text-align: center;
+	line-height: 60px;
+	margin-left: 83px;
+	padding-right: 94px;
+}
+
+.lasth1 {
+	margin-bottom: -11px;
+}
+
+#header-image {
+	width: 379px;
+	height: 379px;
+	background-image: url("/great-idea/img/header-img.png");
+}
