@@ -4,11 +4,7 @@ main {
 	align-items: center;
 	margin: 70px 0 78px;
 }
-#header-image {
-	width: 379px;
-	height: 379px;
-	background-image: url("/great-idea/img/header-img.png");
-}
+
 main .Company {
 	display: flex;
 	justify-content: center;
