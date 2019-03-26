@@ -2,6 +2,12 @@
 @import "mainStyle.css";
 @import "companyHeader.css";
 
+.container {
+	width: 876px;
+}
+header {
+	width: 876px;
+}
 button {
 	padding: 5px 50px;
 }

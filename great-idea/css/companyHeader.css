@@ -1,19 +1,15 @@
-.companyMain {
+main {
 	display: flex;
-	margin: 70px 0;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
-	align-content: center;
+	margin: 69px 0 40px 0;
 }
-
 .Company {
 	font-size: 80px;
 	text-align: center;
+	margin-left: 80px;
 	line-height: 60px;
-	margin-left: 83px;
-	padding-right: 94px;
 }
-
 .lasth1 {
 	margin-bottom: -11px;
 }
