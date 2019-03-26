@@ -2,26 +2,27 @@
 @import "mainStyle.css";
 @import "companyHeader.css";
 
-.container {
-	width: 876px;
-}
-header {
-	width: 876px;
-}
-button {
-	padding: 5px 50px;
-}
-
 .TopRow {
+	margin: 37px 0;
 	display: flex;
-	margin: 30px 0;
+	justify-content: space-between;
+	align-items: flex-start;
 }
-
+h4 {
+	font-size: 17px;
+}
+p {
+	line-height: 18px;
+}
+.Features {
+	width: 425px;
+}
 .BottomRow {
 	display: flex;
-	margin: 30px 0 50px 0;
+	margin: 37px 0 44px;
+	justify-content: space-between;
 }
 
-.Services {
-	padding: 0 10px 0 0;
+.index-bottom-row {
+	width: 276px;
 }
